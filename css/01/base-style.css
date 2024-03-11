@@ -1,5 +1,5 @@
 body {
-    /* background-color: aquamarine; */
+    background-color: grey;
     margin: 0;
 }
 
@@ -12,6 +12,6 @@ section {
 }
 
 section:first-of-type {
-    /* margin-top: 80pt; absolute top */
-    margin-top: 100pt; /* 80pt top + 20pt gap */
+    margin-top: 80pt;
+    /* margin-top: 100pt; */ /*80pt top + 20pt gap */
 }
