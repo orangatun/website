@@ -1,0 +1,17 @@
+body {
+    /* background-color: aquamarine; */
+    margin: 0;
+}
+
+h1 {
+    font-size: large;
+}
+
+section {
+    background-color: #FF9100;
+}
+
+section:first-of-type {
+    /* margin-top: 80pt; absolute top */
+    margin-top: 100pt; /* 80pt top + 20pt gap */
+}

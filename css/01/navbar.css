@@ -1,0 +1,57 @@
+navbar {
+    position:fixed;
+    height: 50pt;
+    margin-top: 0;
+    width: 100%;
+    font-family: 'IBM Plex Mono';
+    font-size: medium;
+    margin: 0;
+    /* background-color: #FF6D0055; */
+    background-color: #f7c9a3;
+    display: inline-block;
+    text-align: center;
+    top:0;
+}
+
+#rg-logo {
+    height: 60pt;
+    width: 60pt;
+    font-size: 20pt;
+    margin-left: 10pt;
+    margin-top: 10pt;
+    margin-right:0pt;
+    vertical-align: middle;
+    background-color: #FF6D00;
+    position: relative;
+}
+
+#rg-logo > span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#rg-name {
+    display: inline-block;
+    position:relative;
+    text-align: center;
+    align-content: center;
+    font-size: 16pt;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    top:-60pt;
+}
+
+#links {
+    margin-left: 0;
+    margin-right:0;
+    width: 100%;
+    display:block;
+    text-align: center;
+    margin-top: -62.5pt;
+    padding-top: 5pt;
+    padding-bottom: 10pt;
+    background-color: #ffb272;
+}
