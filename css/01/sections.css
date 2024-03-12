@@ -3,11 +3,15 @@ section {
     padding: 20pt 40pt 20pt 40pt;
     scroll-margin-top: 80pt;
 }
+.sub-section {
+    margin: 15pt 20pt 15pt 20pt;
+    display: block;
+}
 
 .section-title {
-    font-family: "Patua One", serif;
+    font-family: "Zilla Slab", serif;
     font-size: 18pt;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -17,4 +21,53 @@ section:nth-of-type(odd) {
 
 section:nth-of-type(even) {
     background-color: cadetblue;
+}
+
+.description {
+    font-family: 'IBM Plex Mono';
+    font-size: 12pt;
+}
+
+.section-subheading {
+    display: inline-flex;
+    margin: 0;
+    font-family: "Zilla Slab", serif;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+span.location {
+    font-size: 12pt;
+    display: inline-block;
+    /* font-style: italic; */
+}
+
+span.location::before {
+    content: "- ";
+}
+
+span.location::after {
+    content: "";
+    display: block;
+}
+
+span.timeframe {
+    text-align: end;
+    margin-top: -32pt;
+}
+
+.sub-section>div>span.timeframe {
+    margin-top: -16pt;
+}
+
+#projects>div>span.timeframe {
+    margin-top: -18pt;
+}
+
+.sub-section>img {
+    margin-left:auto;
+    margin-top: 10pt;
+    display: block;
+    width: 125pt;
+    height: 125pt;
 }
