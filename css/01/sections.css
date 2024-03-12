@@ -24,7 +24,9 @@ section:nth-of-type(even) {
 }
 
 .description {
-    font-family: 'IBM Plex Mono';
+    /* font-family: 'IBM Plex Mono'; */
+    margin: 0pt 20pt;
+    font-family: "Zilla Slab", serif;
     font-size: 12pt;
 }
 
@@ -70,4 +72,21 @@ span.timeframe {
     display: block;
     width: 125pt;
     height: 125pt;
+}
+
+#education>div>div {
+    margin-top:-125pt;
+    min-height: 125pt;
+    margin-right:125pt;
+}
+
+#education>div>div>h5 {
+    font-size: 13pt;
+    margin-bottom: 10pt;
+    font-weight: 400;
+    font-family: "Zilla Slab", serif;
+}
+
+#education>div>div>h5::after {
+    content: ":";
 }
