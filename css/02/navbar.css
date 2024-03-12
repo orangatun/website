@@ -1,0 +1,66 @@
+navbar {
+    position:fixed;
+    height: 50pt;
+    margin-top: 0;
+    width: 100%;
+    font-size: medium;
+    margin: 0;
+    background-color: #f7c9a3;
+    display: inline-block;
+    text-align: center;
+    top:0;
+}
+
+#rg-logo {
+    height: 60pt;
+    width: 60pt;
+    font-size: 20pt;
+    margin-left: 10pt;
+    margin-top: 10pt;
+    margin-right:0pt;
+    vertical-align: middle;
+    background-color: #FF6D00;
+    position: relative;
+}
+
+#rg-logo > span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#rg-name {
+    display: inline-block;
+    position:relative;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    font-family: "Slackside One", cursive;
+    font-style: normal;
+    font-size: 36pt;
+    font-weight: bold;
+    margin: 0;
+    top:-72pt;
+}
+
+#links::before {
+    content:"";
+    display: block;
+    height:5pt;
+    background-color: black;
+}
+
+#links {
+    margin-left: 0;
+    margin-right:0;
+    width: 100%;
+    display:block;
+    text-align: center;
+    margin-top:-72.5pt;
+    padding-top: 0;
+    padding-bottom: 10pt;
+    background-color: #ffb272;
+}
