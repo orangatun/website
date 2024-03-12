@@ -64,3 +64,27 @@ navbar {
     padding-bottom: 10pt;
     background-color: #ffb272;
 }
+
+.fa-github {
+    color:#24292E;
+}
+
+.fa-linkedin-square {
+    color:#0077B5;
+}
+
+.fa-envelope {
+    color:aliceblue;
+}
+
+#socials>a>i {
+    font-size: 18pt;
+    vertical-align:middle;
+    margin-right:5pt;
+}
+
+#socials {
+    margin-top:-22pt;
+    margin-right:10pt;
+    float:right;
+}

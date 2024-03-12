@@ -1,0 +1,19 @@
+#education>div>span.timeframe {
+    display: none;
+}
+
+/* #experience>div[hidden] {
+    display: none;
+} */
+
+#projects>div>span.timeframe {
+    display: none;
+}
+
+#projects>div[hidden] {
+    display: none;
+}
+
+#socials>a[hidden] {
+    display: none;
+}
