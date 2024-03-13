@@ -91,3 +91,16 @@ for(let i=1; i<experiences.length; i++) {
 
 
 // Adds resume 
+resumeDiv = document.createElement("div");
+resumeDiv.classList.add("resume-div");
+resumeLink = document.createElement("a");
+resumeLink.setAttribute("href", "./files/RaghunadhamG_Resume.pdf");
+resumeLink.textContent="View Résumé";
+resumeLink.classList.add("resume-link");
+let resumeArrow = document.createElement("span");
+resumeArrow.innerHTML = "↗";
+resumeArrow.classList.add("ne-arrow");
+resumeLink.insertAdjacentElement("afterend", resumeArrow);
+resumeDiv.appendChild(resumeLink);
+resumeDiv.appendChild(resumeArrow);
+document.getElementById("experience").appendChild(resumeDiv);

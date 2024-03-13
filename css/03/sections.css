@@ -254,3 +254,25 @@ section>div:hover {
     font-size: 11pt;
     line-height: 1.4;
 }
+
+.resume-div {
+    border-radius: 3pt;
+    /* width: 90pt; */
+    display: inline;
+    margin-right: auto;
+    
+}
+
+.resume-div:hover {
+
+    .resume-link {
+        color:var(--highlight-orange);
+        transition: 0.3s;
+    }
+}
+
+.resume-link {
+    text-decoration: none;
+    color: var(--primary-white);
+    transition: 0.3s;
+}
