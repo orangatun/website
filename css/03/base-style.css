@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+#body-container {
+    max-width: 1080px;
+    /* width: 50%; */
+    margin-right:45pt;
+    margin-left:50%;
+    background-color: darkgrey;
+
+}
+
+h1 {
+    font-size: large;
+}
+
+section {
+    background-color: #FF9100;
+}
+
+
+span {
+    display: block;
+}
