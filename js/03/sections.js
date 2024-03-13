@@ -38,6 +38,24 @@ body.appendChild(outOfFocus);
 */
 
 
+// Adds links to experience
+
+document.getElementById("ifers").addEventListener("click", function() {
+    window.open("https://ifers.org");
+});
+
+document.getElementById("bloom").addEventListener("click", function() {
+    window.open("https://bloominsuranceagency.com/");
+});
+
+document.getElementById("accn").addEventListener("click", function() {
+    window.open("https://accenture.com/");
+});
+
+document.getElementById("surya").addEventListener("click", function() {
+    window.open("https://surya-soft.com/");
+});
+
 // Combining Role with heading
 let experiences = document.getElementById("experience").children;
 for(let i=1; i<experiences.length; i++) {
@@ -55,7 +73,7 @@ for(let i=1; i<experiences.length; i++) {
         oldestTimeFrame = experiences[i].children[j].children[0].textContent;
         experiences[i].children[j].removeChild(experiences[i].children[j].children[0]); // Removes extra timeframes
         latestRole.insertAdjacentElement("afterend", roleSpan);
-    }
+    }    
     if(oldestTimeFrame.length!=0) {
         // Combines individual timeframes
         experiences[i].children[3].children[2].textContent = oldestTimeFrame.split("-")[0]+"-"+latestTimeFrame.split("-")[1];
@@ -63,11 +81,13 @@ for(let i=1; i<experiences.length; i++) {
         // Put timeframe ahead of old job roles
         let timeFrame = experiences[i].children[3].children[2];
         experiences[i].children[3].children[1].insertAdjacentElement("beforebegin", timeFrame);
-    }
+    }    
 
     // Removes latest role from spans
     experiences[i].children[3].removeChild(latestRole);
 
-}
+}    
+
+
 
 // Adds resume 
