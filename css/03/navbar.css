@@ -89,11 +89,11 @@ navbar {
 
 }
 
-#links>a:hover {
+#links>a:hover, #links>a.active-section {
     color: #E2E8F0;
     transition: 0.2s;
 }
-#links>a:hover::before {
+#links>a:hover::before, #links>a.active-section::before {
     background-color: #E2E8F0D0;
     height:2px;
     width: 48pt;
