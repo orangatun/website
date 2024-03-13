@@ -1,3 +1,17 @@
+:root {
+    --highlight-orange: #FF9100;
+    --primary-white: #E2E8F0;
+    --primary-transparent-white: #E2E8F0D0;
+    --secondary-white: #D8E3F2;
+    --text-color: #94A3B8;
+    --inactive-color: #64748B;
+    --inactive-transparent-color: #64748B88;
+    --body-color: #0A192F;
+    --temporary-bg: #FFF0;
+    --working-bg: burlywood;
+    --hover-box-shadow: #FFFFFF0F;
+}
+
 html {
     scroll-behavior: smooth;
     font-family: Inter, sans-serif;
@@ -10,7 +24,7 @@ body {
     margin-left: auto;
     margin-right: 0;
     width:50%;
-    background-color: #0a192f;
+    background-color: var(--body-color);
 }
 
 #body-container {
@@ -38,4 +52,5 @@ h1 {
 
 span {
     display: block;
+    color: var(--secondary-white);
 }

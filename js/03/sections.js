@@ -7,10 +7,18 @@ aboutSection.appendChild(newAboutContent);
 
 
 let locationElements = document.getElementsByClassName("location");
-// console.log(locationElements);
 for(const location of locationElements) {
     let arrowElement = document.createElement("span");
     arrowElement.innerHTML = "↗";
     arrowElement.classList.add("ne-arrow");
     location.insertAdjacentElement("afterend", arrowElement);
 };
+
+document.getElementById("iu").addEventListener("click", function() {
+    window.open("https://bloomington.iu.edu");
+});
+
+
+document.getElementById("vtu").addEventListener("click", function() {
+    window.open("https://vtu.ac.in/en/");
+});

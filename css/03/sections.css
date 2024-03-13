@@ -14,12 +14,12 @@ section {
 }
 
 #about {
-    background-color: #FFF0;
+    background-color: var(--temporary-bg);
 }
 
 #about>.description {
     margin:0;
-    color: #94A3B8;
+    color: var(--text-color);
 }
 
 #about {
@@ -31,13 +31,13 @@ section {
 }
 
 #education {
-    background-color: #FFF0;
+    background-color: var(--temporary-bg);
     /* background-color: aliceblue; */
 
 }
 
 #education>div {
-    background-color: burlywood;
+    background-color: var(--temporary-bg);
     margin: 20pt;
     width: calc(100%+40pt);
     margin-left:-20pt;
@@ -48,47 +48,43 @@ section {
     padding-right: 20pt;
     padding-bottom: 10pt;
     display: block;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 #education>div:hover {
-    background-color: #FFFFFF40;
-    transition: 0.5s;
+    box-shadow: 0 3pt 6pt 0,rgba(0,0,0,0.16);
+    background-color: var(--hover-box-shadow);
+    transition: 0.2s;
+
+    #education>div>h4.section-subheading {
+        color: var(--highlight-orange);
+    }
+
+    .location, .section-subheading {
+        color: var(--highlight-orange);
+    }
 
     .ne-arrow {
         display: inline-block;
         font-size: 10pt;
-        transform: translateX(3pt) translateY(-3pt);
+        transform: translateX(6pt) translateY(-6pt);
         transition: 0.3s;
+        color:var(--highlight-orange);
     }
 }
 
-
-/* #education>div>span.location {
-    display: inline-block;
-} */
-
-/* #education>div>span.location::after {
-    content: "\2197";
-    margin-top: 10pt;
-    margin-bottom: 20pt;
-    margin-left: 20pt;
-    padding-bottom:20pt;
-    display: inline-block;
-} */
-
 #education>div>div {
-    /* margin-top:-125pt; */
     min-height: 125pt;
     display: inline-block;
     margin-right:125pt;
+    color:var(--text-color);
 }
 
 #education>div>div>h5 {
-    font-size: 13pt;
+    font-size: 12pt;
     margin-bottom: 10pt;
     font-weight: 400;
-    font-family: "Zilla Slab", serif;
+    /* font-family: "Zilla Slab", serif; */
 }
 
 #education>div>div>h5::after {
@@ -143,12 +139,13 @@ section:nth-of-type(even) {
 .section-subheading {
     display: inline-flex;
     margin: 0;
-    font-family: "Zilla Slab", serif;
+    color: var(--primary-white);
     font-size: 16pt;
     font-weight: 400;
 }
 
 span.location {
+    color: var(--primary-white);
     font-size: 12pt;
     display: inline-block;
 }
@@ -165,9 +162,9 @@ span.location::before {
 .ne-arrow {
     display: inline-block;
     font-size: 11pt;
-    margin-left:8pt;
-    vertical-align: top;
+    margin-left:6pt;
     transition: 0.3s;
+    color: var(--primary-white);
 }
 
 /* .ne-arrow:hover {
