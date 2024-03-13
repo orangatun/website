@@ -6,13 +6,14 @@ navbar {
     /* margin-left:45pt; */
     /* font-size: medium; */
     align-self: flex-end;
-    background-color: #0a192f;
+    /* background-color: #0a192f; */
+    /* background-color: #E2E8F044; */
     display: inline-block;
     text-align: left;
     color: #E2E8F0;
     /* top:0; */
     max-width: 1080px;
-
+    top:0;
     /* left:0; */
     /* padding-left:45pt; */
 }

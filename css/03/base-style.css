@@ -5,15 +5,25 @@ html {
 }
 
 body {
-    background-color: grey;
+    /* background-color: grey; */
     margin: 0;
+    margin-left: auto;
+    margin-right: 0;
+    width:50%;
+    background-color: #0a192f;
 }
 
 #body-container {
     max-width: 1080px;
+    /* width: 50%; */
+    /* float:right; */
     margin-right:45pt;
-    margin-left:50%;
-    background-color: darkgrey;
+    margin-left:auto;
+    /* margin-left:50%; */
+    margin-top:72pt;
+    padding-right:32pt; /* removing 40pt here to add it to every div that doesn't require overflow. */
+    /* background-color: #0a192f; */
+    /* background-color: darkgrey; */
 
 }
 
@@ -21,9 +31,9 @@ h1 {
     font-size: large;
 }
 
-section {
+/* section {
     background-color: #FF9100;
-}
+} */
 
 
 span {
