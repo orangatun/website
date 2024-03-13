@@ -38,6 +38,7 @@ navbar {
     font-family: Inter, sans-serif;
     margin-left:45pt;
     padding-left:72pt;
+    color: var(--primary-white);
     margin-top:8pt;
 }
 

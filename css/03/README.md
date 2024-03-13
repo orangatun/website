@@ -8,3 +8,6 @@ She used Tailwind CSS and Next.js for her website. I'll be using plain CSS and J
 ## Approach
 
 I retain the other elements of the previous design, and modify one element at a time. Starting with the navbar which is now a sticky sidebar. 
+
+## Future improvements
+- Burring other sub-sections on hover of a sub-section

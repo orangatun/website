@@ -2,11 +2,12 @@
     --highlight-orange: #FF9100;
     --primary-white: #E2E8F0;
     --primary-transparent-white: #E2E8F0D0;
-    --secondary-white: #D8E3F2;
+    --secondary-white: #a6adb6;
     --text-color: #94A3B8;
     --inactive-color: #64748B;
     --inactive-transparent-color: #64748B88;
     --body-color: #0A192F;
+    --body-transparent-color: #0A192F40;
     --temporary-bg: #FFF0;
     --working-bg: burlywood;
     --hover-box-shadow: #FFFFFF0F;
@@ -53,4 +54,6 @@ h1 {
 span {
     display: block;
     color: var(--secondary-white);
+    font-size: 11pt;
+    margin-top:2pt;
 }
