@@ -34,7 +34,7 @@ console.log(currentSection);
 window.addEventListener("scroll", function() {
     var newSection = links[0].getAttribute("href");
     sections.forEach(section => {
-        if(this.scrollY>=section.offsetTop) {
+        if(this.scrollY>=section.offsetTop-120) {
             newSection = '#'+section.id;
         }
     });
