@@ -106,4 +106,28 @@ resumeDiv.appendChild(resumeArrow);
 document.getElementById("experience").appendChild(resumeDiv);
 
 
-// Background glow/aura effect 
+// About the page
+let footerDiv = document.createElement("div");
+let footerText = document.createElement("p");
+footerText.appendChild(document.createTextNode("Design inspired by "));
+console.log(footerText);
+footerText.appendChild(document.createElement("a"));
+footerText.lastChild.setAttribute("href", "https://brittanychiang.com/");
+footerText.lastChild.textContent = "Brittany Chiang's website";
+footerText.lastChild.classList.add("text-link");
+footerText.appendChild(document.createTextNode(" and coded in VSCode, from scratch, using plain JS and CSS. Everything here is in "));
+footerText.appendChild(document.createElement("a"));
+footerText.lastChild.setAttribute("href", "https://rsms.me/inter/");
+footerText.lastChild.textContent = "Inter";
+footerText.lastChild.classList.add("text-link");
+footerText.appendChild(document.createTextNode(" typeface. Check out the source files in "));
+footerText.appendChild(document.createElement("a"));
+footerText.lastChild.setAttribute("href", "https://github.com/orangatun/website/tree/main");
+footerText.lastChild.textContent = "my Github repo";
+footerText.lastChild.classList.add("text-link");
+footerText.appendChild(document.createTextNode("."));
+
+footerDiv.appendChild(footerText);
+footerDiv.classList.add("footer-div");
+
+sections[sections.length-1].insertAdjacentElement("afterend", footerDiv);

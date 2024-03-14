@@ -276,3 +276,27 @@ section>div:hover {
     color: var(--primary-white);
     transition: 0.3s;
 }
+
+
+.footer-div {
+    font-family: Inter, sans-serif;
+    line-height: 1.4;
+    font-size: 10.5pt;
+    color: var(--inactive-color);
+    transition: 0.4s;
+    margin-right:108pt;/*45pt;*/
+    margin-bottom:72pt;
+}
+
+.text-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-left: 1pt;
+    margin-right: 1pt;
+}
+
+.text-link:hover {
+    color: var(--highlight-orange);
+    transition: 0.4s;
+}

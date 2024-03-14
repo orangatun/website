@@ -24,7 +24,7 @@ body {
     margin-left: auto;
     margin-right: 0;
     width:50%;
-    background-image: radial-gradient(circle 600px at var(--x,100px) var(--y,100px), #1c4ed9 -700%, #05101f 100%);
+    background-image: radial-gradient(circle 400px at var(--x,100px) var(--y,100px), #1c4ed9 -750%, #05101f 100%);
 }
 
 #body-container {
