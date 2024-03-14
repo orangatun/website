@@ -10,6 +10,7 @@ All the fonts used are licensed under Open Font License. The following fonts wer
 
 
 ## Structure
+```
 .
 ├── css                         # This is where all the CSS files are
 │   ├── 01                      # styles of css for the same html
@@ -22,7 +23,7 @@ All the fonts used are licensed under Open Font License. The following fonts wer
 ├── LICENSE
 └── README.md
 
-
+```
 ### Influences
 
 - https://www.danmachado.com/
