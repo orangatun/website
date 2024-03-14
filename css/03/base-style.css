@@ -11,6 +11,8 @@
     --temporary-bg: #FFF0;
     --working-bg: burlywood;
     --hover-box-shadow: #FFFFFF0F;
+    /* --x:100px;
+    --y:100px; */
 }
 
 html {
@@ -25,7 +27,11 @@ body {
     margin-left: auto;
     margin-right: 0;
     width:50%;
-    background-color: var(--body-color);
+    /* background-color: var(--body-color); */
+    /* background-image: radial-gradient(circle farthest-side at var(--x) var(--y), var(--body-transparent-color) -80%, var(--body-color) 10%); */
+    /* background-image: radial-gradient(600px at 79px 2687px, #1c4ed926, transparent 80%); */
+    /* background-color: #0A192F; */
+    background-image: radial-gradient(circle 600px at var(--x,100px) var(--y,100px), var(--body-transparent-color) -700%, #0A192F 100%);/*, #1C4ED926 100%);*/
 }
 
 #body-container {

@@ -104,3 +104,6 @@ resumeLink.insertAdjacentElement("afterend", resumeArrow);
 resumeDiv.appendChild(resumeLink);
 resumeDiv.appendChild(resumeArrow);
 document.getElementById("experience").appendChild(resumeDiv);
+
+
+// Background glow/aura effect 
